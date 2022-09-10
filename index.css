@@ -1,0 +1,59 @@
+button{
+    border:none;
+    padding-top:10px;
+    padding-bottom: 10px;
+    color: white;
+    margin-left: 650px;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+body {
+    background-image: url("subway-img.jpg");
+    background-size: 1550px 1000px;
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+  }
+
+button:hover {background-color: #3e8e41}
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#h31{
+    margin-right: 740px;
+    background-color: darkorchid;
+    margin-left: 650px;
+    color:#e8e8ed;
+}
+h1{
+    margin-top: 200px;
+    margin-left: 650px;
+}
+h2{
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 736px;
+}
+#display{
+    margin-right: 740px;
+    background-color: rgb(87, 177, 209);
+    margin-left: 650px;
+    color:#73430f;
+}
+
+#reset-btn{
+    background: darkgreen;
+}
+#save-btn{
+    background: crimson;
+}
+#increment-btn
+{
+    background: darkred;
+}
